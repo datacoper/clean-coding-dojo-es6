@@ -1,0 +1,30 @@
+{
+  "name": "clean-coding-dojo-es6",
+  "version": "1.0.0",
+  "description": "Dojo for practice ES6 features using clean code techniques.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r esm -R spec src/**/*.spec.js"
+  },
+  "repository": "https://github.com/datacoper/clean-coding-dojo-es6.git",
+  "keywords": [
+    "dojo",
+    "clean",
+    "coding",
+    "es6"
+  ],
+  "author": "Datacoper <contato@datacoper.com.br>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/datacoper/clean-coding-dojo-es6/issues"
+  },
+  "homepage": "https://github.com/datacoper/clean-coding-dojo-es6#readme",
+  "private": false,
+  "dependencies": {
+    "esm": "^3.0.84"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
